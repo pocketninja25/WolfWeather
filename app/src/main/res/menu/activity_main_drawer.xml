@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Favourites">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:choiceMode="singleChoice"
+            android:layout_gravity="left|top"
+            android:layout_margin="0dp"
+            android:fadeScrollbars="true" />
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share"
+                />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
